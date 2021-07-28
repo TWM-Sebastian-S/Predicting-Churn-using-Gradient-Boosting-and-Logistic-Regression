@@ -2,28 +2,28 @@
 
 This is one of my personal DS/ML/DL projects I've been working in since I started my career as a Data Scientist.
 
-## Project Overview
+### Project Overview
 
 
-## Code and resources used
+### Code and resources used
 
 
-## Dataset information
+### Dataset information
 
 
-## Data Cleaning
+### Data Cleaning
 
 
-## EDA
+### EDA
 
 
-## Model Building
+### Model Building
 
 
-## Model Performance
+### Model Performance
 
 
-## Productionization
+### Productionization
 
 
 [Notebook](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression/blob/main/Predicting%20Churn%20using%20Gradient%20Boosting%20and%20Logistic%20Regression.ipynb)
