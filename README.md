@@ -44,7 +44,7 @@ I also performed Gradient Boosting as a crosscheck using a hyperparameter tuning
 
 ## Model Performance
 
-I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
+I tried three different models and evaluated them using ROC curve and Precission Recall Curve.
 
 
 ## Conclusion
