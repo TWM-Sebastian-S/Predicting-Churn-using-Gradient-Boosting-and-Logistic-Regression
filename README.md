@@ -19,19 +19,31 @@ Project included:
   - Recursive feature elimination
 
 
+### Problem Statement
+
+A Telecom Company has evidence of customer churn and has provided a dataset with certain information regarding their clients. Customer attrition, also known as customer churn, customer turnover, or customer defection, is the loss of clients or customers.
+
+Why is it bad? Because revenue that was once captured by the business is no longer going to repeat. So, eventually, churn leads to increase company's efforts to acquire new clients, evetually increasing CAC (customer acquisition cost) & reducing profits. Moreover, acquiring new customers is more expensive than maintaining existing ones. The more customers you churn, the more money you must spend to regain new one that will cover the loss of business.
+
+A good practice that most of the companies implement, is related to target potential churn customers in advance to try to see if there is space to take action beforehand. Therefore, any good CRM must have a solid prediction model to target potential loss of customers in advance.
+
+In the following project I will work with the Telecom Company database containing information regarding their customers and churn situation.
+
 ### Code and resources used
-
-
-### Dataset information
-
-
-### Data Cleaning
-
-
-### EDA
-
+**Python Version:** 3.7
+**Packages:** Pandas / Numpy / Seaborn / Scikitlearn
+**ML Resources:** Logistic Regression / Gradient Boosting / Cross-validation / AUC / ROC / Confusion Matrix
 
 ### Model Building
+First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
+
+I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
+
+I tried three different models:
+
+Multiple Linear Regression – Baseline for the model
+Lasso Regression – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
+Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
 
 ### Model Performance
