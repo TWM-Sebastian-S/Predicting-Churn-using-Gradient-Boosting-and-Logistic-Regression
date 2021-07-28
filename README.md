@@ -30,8 +30,10 @@ A good practice that most of the companies implement, is related to target poten
 In the following project I will work with the Telecom Company database containing information regarding their customers and churn situation.
 
 ## Code and resources used
-**Python Version:** 3.7 
+**Python Version:** 3.7
+
 **Packages:** Pandas / Numpy / Seaborn / Scikitlearn
+
 **ML Resources:** Logistic Regression / Gradient Boosting / Cross-validation / AUC / ROC / Confusion Matrix
 
 ## Model Building
