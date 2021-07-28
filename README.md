@@ -1,34 +1,29 @@
-# Foobar
+# Predicting Churn Using Gradient Boosting and Logistic Regression
 
-Foobar is a Python library for dealing with word pluralization.
+This is one of my personal DS/ML/DL projects I've been working in since I started my career as a Data Scientist.
 
-## Installation
+## Project Overview
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-```bash
-pip install foobar
-```
+## Code and resources used
 
-## Usage
 
-```python
-import foobar
+## Dataset information
 
-# returns 'words'
-foobar.pluralize('word')
 
-# returns 'geese'
-foobar.pluralize('goose')
+## Data Cleaning
 
-# returns 'phenomenon'
-foobar.singularize('phenomena')
-```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## EDA
 
-Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Model Building
+
+
+## Model Performance
+
+
+## Productionization
+
+
+[Notebook](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression/blob/main/Predicting%20Churn%20using%20Gradient%20Boosting%20and%20Logistic%20Regression.ipynb)
