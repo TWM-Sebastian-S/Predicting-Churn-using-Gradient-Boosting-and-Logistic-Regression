@@ -1,8 +1,8 @@
 # Predicting Churn Using Gradient Boosting and Logistic Regression
 
-## This is one of my personal DS/ML/DL projects I've been working in since I started my career as a Data Scientist.
+### This is one of my personal DS/ML/DL projects I've been working in since I started my career as a Data Scientist.
 
-### Project Overview
+## Project Overview
 
 Machine Learning Project in Python created to find out the key drivers that lead to churn and predict the customer churn.
 Project included: 
@@ -19,7 +19,7 @@ Project included:
   - Recursive feature elimination
 
 
-### Problem Statement
+## Problem Statement
 
 A Telecom Company has evidence of customer churn and has provided a dataset with certain information regarding their clients. Customer attrition, also known as customer churn, customer turnover, or customer defection, is the loss of clients or customers.
 
@@ -29,13 +29,18 @@ A good practice that most of the companies implement, is related to target poten
 
 In the following project I will work with the Telecom Company database containing information regarding their customers and churn situation.
 
-### Code and resources used
-**Python Version:** 3.7
+## Code and resources used
+**Python Version:** 3.7 
 **Packages:** Pandas / Numpy / Seaborn / Scikitlearn
 **ML Resources:** Logistic Regression / Gradient Boosting / Cross-validation / AUC / ROC / Confusion Matrix
 
-### Model Building
-First, I transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
+## Model Building
+
+First, I built a logistic regression as it's a statistical model that uses a logistic function to model a binary dependent variable (true/false, yes/no, 0/1, etc), although many more complex extensions exist. The model is used to model the probability of a certain class or event existing such as pass/fail, win/lose, alive/dead or healthy/sick.
+
+I also performed Gradient Boosting as a crosscheck using a hyperparameter tuning with a CV grid to find the best gradient boosting model.
+
+transformed the categorical variables into dummy variables. I also split the data into train and tests sets with a test size of 20%.
 
 I tried three different models and evaluated them using Mean Absolute Error. I chose MAE because it is relatively easy to interpret and outliers aren’t particularly bad in for this type of model.
 
@@ -46,10 +51,10 @@ Lasso Regression – Because of the sparse data from the many categorical variab
 Random Forest – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
 
-### Model Performance
+## Model Performance
 
 
-### Productionization
+## Conclusion
 
 
 [GitHub Repository](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression)
