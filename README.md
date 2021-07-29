@@ -44,10 +44,14 @@ I also performed Gradient Boosting as a crosscheck using a hyperparameter tuning
 
 ## Model Performance
 
-I tried three different models and evaluated them using ROC curve and Precission Recall Curve.
+I tried two different models and evaluated them using ROC curve and Precission Recall Curve.
 
+## Recursive Feature Elimination
+
+I analyzed all variables involved and eliminated those that were the weakest ones. 
 
 ## Conclusion
 
+I came up with a gradient boosting model with only the strongest features and a solid performance against Logistic Regression.
 
 [GitHub Repository](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression)
