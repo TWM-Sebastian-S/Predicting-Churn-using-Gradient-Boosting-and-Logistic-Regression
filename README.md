@@ -46,7 +46,8 @@ I also performed Gradient Boosting as a crosscheck using a hyperparameter tuning
 
 I tried two different models and evaluated them using ROC curve and Precission Recall Curve.
 
-![ROC Curve](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression/blob/main/ROC%20curve.JPG "ROC Curve")
+![ROC Curve](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression/blob/main/ROC%20curve.JPG "ROC Curve") ![Precision Recall Curve](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression/blob/main/Precision%20Recall%20Curve.JPG "Precision Recall Curve")
+
 
 ## Recursive Feature Elimination
 
