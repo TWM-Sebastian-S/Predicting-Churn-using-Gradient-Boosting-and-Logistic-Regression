@@ -46,6 +46,11 @@ I also performed Gradient Boosting as a crosscheck using a hyperparameter tuning
 
 I tried two different models and evaluated them using ROC curve and Precission Recall Curve.
 
+Generally, the use of ROC curves and precision-recall curves are as follows:
+
+- ROC curves should be used when there are roughly equal numbers of observations for each class.
+- Precision-Recall curves should be used when there is a moderate to large class imbalance.
+
 ![ROC Curve](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression/blob/main/ROC%20curve.JPG "ROC Curve") ![Precision Recall Curve](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression/blob/main/Precision%20Recall%20Curve.JPG "Precision Recall Curve")
 
 
@@ -55,6 +60,8 @@ I analyzed all variables involved and eliminated those that were the weakest one
 
 ## Conclusion
 
-I came up with a gradient boosting model with only the strongest features and a solid performance against Logistic Regression.
+I came up with a gradient boosting model with only the strongest features and a solid performance against Logistic Regression. The key drivers are as follows:
+
+![Key drivers of churn](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression/blob/main/Key%20drivers%20of%20churn.JPG "Key drivers of Churn")
 
 [GitHub Repository](https://github.com/TWM-Sebastian-S/Predicting-Churn-using-Gradient-Boosting-and-Logistic-Regression)
